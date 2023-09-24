@@ -15,7 +15,7 @@ def calculate_derivative(value):
 def newton_raphsons(x0,count):
     while(count>0):
         function = calculate_function(x0)
-        derivative = round(calculate_derivative(x0),2)
+        derivative = round(calculate_derivative(x0),4)
         x1 = round(x0 - (function/derivative), 4)
         print(
             f"x0: {x0} | x1: {x1} | fx0': {derivative} ")
