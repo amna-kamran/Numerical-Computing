@@ -5,7 +5,7 @@ import sympy as sp
 def calculate_function(x):
     return x**2-2*x-2
 
-#i calculated derivated of the expression and then substituted the value in place of x that i passed in the function
+#I calculated the derivative of the expression and then substituted the value that I passed in the function
 def calculate_derivative(value):
     x = sp.symbols('x')
     derivative = sp.diff(x**2-2*x-2, x)
